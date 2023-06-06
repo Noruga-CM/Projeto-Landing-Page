@@ -1,0 +1,155 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#titulo1{
+    font-size: 40px;
+    margin-left: 172px;
+    margin-top: 185px;
+}
+
+#texto1{
+    font-size: 20px;
+    margin-left: 172px;
+    line-height: 30px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundosuperior.svg);
+    padding-bottom: 151px;
+    color: white;
+    background-size: cover;
+}
+
+#menuinfo{
+    background-color: #EAECE5;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin-top: 67.11px ;
+    margin-bottom:68.16px ;
+    margin-left:  174.11px; ;
+    padding-right: 20px;
+}
+
+.textinfo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#video{
+    margin-top: 186px;
+    margin-left: 397px;
+    margin-bottom: 186px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 186px;
+    font-size: 50px;
+}
+
+#textovideo{
+    font-size: 25px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 100px;
+}
+
+#titulocarrossel{
+    text-align: center;
+    color: #EAECE5;
+    margin-bottom: 25px;
+}
+
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#seta-esq{
+    display: none;
+}
+
+#leonardo{
+    display: none;
+}
+
+.setas{
+    margin-top: 75%;
+    cursor: pointer;
+}
+
+.setas:hover{
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloform{
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+
+button{
+    margin-right: 50px;
+    align-self: center;
+    background-color: #247BA0;
+    height: 53px;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #247BA0;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1397d0;
+}
+
+input{
+    height: 53px;
+    width: 413px;
+    border-radius: 8px;
+    display: grid;
+    margin: 40px 40%;
+    border: 0px;
+    background-color: #EAECE5;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
